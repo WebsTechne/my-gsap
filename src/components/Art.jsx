@@ -8,7 +8,6 @@ export default function Art() {
 
   useGSAP(() => {
     const start = isMobile ? "top 20%" : "top top";
-    // const end = isMobile ? "top 20%" : "top top";
 
     const maskTimeline = gsap.timeline({
       ease: "power1.inOut",
@@ -25,7 +24,6 @@ export default function Art() {
       .to(".will-fade", {
         opacity: 0,
         stagger: 0.2,
-        // ease: "power1.inOut",
       })
       .to(".masked-img", {
         scale: 1.3,
