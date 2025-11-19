@@ -8,6 +8,7 @@ export default function Navbar() {
       scrollTrigger: {
         trigger: "#mainNav",
         start: "bottom top",
+        end: "bottom top+=1",
       },
     });
 
